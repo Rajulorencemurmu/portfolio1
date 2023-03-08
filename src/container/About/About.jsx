@@ -6,7 +6,7 @@ import "./About.scss";
 import { client } from "../../client";
 
 const About = () => {
-  const [setAbouts] = useState([]);
+  setAbouts = useState([]);
 
   useEffect(() => {
     const query = '*[_type == "abouts"]';
